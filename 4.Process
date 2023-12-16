@@ -48,7 +48,6 @@ CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 
 INDEX.HTML:
 
-
 PIPELINE:
 
 pipeline {
