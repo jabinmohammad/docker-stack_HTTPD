@@ -125,8 +125,15 @@ services:
       - "azurevol"
     deploy:
       replicas: 3
+img
+ pen
+ pencil
+ marker
+ paper
 
-jabinmohammad/pen:latest
-jabinmohammad/pencil:latest
-jabinmohammad/marker:latest
-jabinmohammad/paper:latest
+repo
+
+ jabinmohammad/pen:latest
+ jabinmohammad/pencil:latest
+ jabinmohammad/marker:latest
+ jabinmohammad/paper:latest
