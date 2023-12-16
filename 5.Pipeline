@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/jabinmohammad/jenkins-java-project.git'
+                git 'https://https://github.com/jabinmohammad/001Project.git'
             }
         }
         stage('build') {
@@ -37,7 +37,7 @@ pipeline {
     stages {
         stage('check') {
             steps {
-                git 'https://github.com/jabinmohammad/jenkins-java-project.git'
+                git 'https://https://github.com/jabinmohammad/001Project.git'
             }
         }
         stage('stack') {
