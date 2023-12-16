@@ -126,3 +126,7 @@ services:
     deploy:
       replicas: 3
 
+jabinmohammad/pen:latest
+jabinmohammad/pencil:latest
+jabinmohammad/marker:latest
+jabinmohammad/paper:latest
