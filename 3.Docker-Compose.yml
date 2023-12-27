@@ -1,25 +1,25 @@
 version: '3'
 services:
   movies:
-    image: jabinmohammad/pen:latest
+    image: jabinmohammad/book:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: jabinmohammad/pencil:latest
+    image: jabinmohammad/notebook:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: jabinmohammad/marker:latest
+    image: jabinmohammad/textbook:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: jabinmohammad/paper:latest
+    image: jabinmohammad/colourbook:latest
     ports:
       - "84:80"
     deploy:
