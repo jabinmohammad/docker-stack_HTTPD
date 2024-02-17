@@ -2,6 +2,10 @@ PUSHING:
 
 pipeline {
     agent any 
+    environment {
+        usernsme     = credentials('usernsme')
+        password     = credentials('password')
+    }
     
     stages {
         stage('checkout') {
@@ -21,7 +25,7 @@ pipeline {
         }
         stage('push') {
             steps {
-                sh 'docker login -u jabinmohammad -p Raham@#123'
+                sh 'docker login -u $usernsme -p $password'
                 sh 'docker push $repo'
             }
         }
